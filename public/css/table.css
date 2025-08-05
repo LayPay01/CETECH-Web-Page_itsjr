@@ -1,0 +1,16 @@
+div.columns {
+    margin-top: 10px;
+  }
+
+  h1 {
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  .table td {
+    font-size: 17px
+  }
+
+  .table th {
+    font-size: 17px
+  }

@@ -1,0 +1,49 @@
+html {
+    background-image: url(../img/fondo_upscayl_3x.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*background-size: 100%;*/
+    background-size: cover;
+}
+
+body {
+    margin-top: 75px;
+}
+
+.dropdown-content .button.dropdown-item:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.box.has-shadow, .container.has-shadow {
+    box-shadow: -2px -2px 2px rgba(0, 0, 0, 0.1), 2px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+.buttons .button i, .buttons .button, .field .button i, p button i, .field .button {
+    color: #000;
+}
+
+.input {
+    position: relative;
+}
+
+.labels {
+    position: absolute;
+    top: 20%;
+    left: 6%;
+    transition: all 0.2s ease;
+    color: #999;
+    pointer-events: none;
+}
+
+.input:focus + .labels,
+.input:not(:placeholder-shown) + .labels {
+    transform: translateY(-85%) translateX(-20%) scale(.7);
+    background-color: white;
+    padding: 0 5px;
+}
+
+.is-6.height {
+    height: 3em; /* Ajusta este valor a la altura que desees */
+    overflow: hidden; /* Esto es para evitar que el texto se desborde */
+}
